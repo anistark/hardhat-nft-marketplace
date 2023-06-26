@@ -1,5 +1,16 @@
 # Decentralised NFT Marketplace Project using Hardhat Deploy
 
+## Setup:
+
+Install Dependencies: `npm i`
+Setup env: `touch .env`
+
+## Deploy:
+`node_modules/.bin/hardhat deploy`
+
+## Verify Contract:
+`node_modules/.bin/hardhat etherscan-verify --api-url "https://explorer.evm.testnet.shimmer.network/api"`
+
 Inspired from [eugenekhoo1's repo](eugenekhoo1/hardhat-nft-marketplace).
 
 Backend contracts/tests/scripts/deployment
